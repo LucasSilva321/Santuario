@@ -1,6 +1,7 @@
 # Santuario
 
 <h2>Trabalho realizado no 3º Semestre de Engenharia da Computação, referente as disciplinas de Programação Orientada a Objetos e Estrutura de Dados</h2>
+<p>O sistema possibilta o cadastro, listagem e consulta de determinadas espécies, para um santuário de preservação que acolhe animais em extinção.</p>
 
   <h3>Comandos que podem ser utilizados durante a consulta</h3>
   <h4>As funcionalidades dependem da espécie</h4>
