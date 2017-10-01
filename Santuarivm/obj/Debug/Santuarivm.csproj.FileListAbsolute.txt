@@ -1,0 +1,116 @@
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\Santuarivm.exe.config
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\MainWindow.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\App.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm_MarkupCompile.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm_MarkupCompile.lref
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\Santuarivm.exe
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\Santuarivm.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\MainWindow.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.g.resources
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.Properties.Resources.resources
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.csproj.GenerateResource.Cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.exe
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Cadastro.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Cadastro.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Consulta.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Consulta.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Listagem.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Listagem.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Sobre.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Sobre.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Pesquisa.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Tela_Pesquisa.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Interop.WMPLib.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm\Santuarivm\obj\Debug\Santuarivm.csproj.ResolveComReference.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\Santuarivm.exe.config
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Interop.WMPLib.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.csproj.ResolveComReference.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.exe
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\Santuarivm.exe
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\Santuarivm.pdb
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\Microsoft.Expression.Effects.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\MainWindow.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Cadastro.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Consulta.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Listagem.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Pesquisa.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Sobre.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\App.g.cs
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm_MarkupCompile.cache
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm_MarkupCompile.lref
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\MainWindow.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Cadastro.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Consulta.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Listagem.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Pesquisa.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Tela_Sobre.baml
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.g.resources
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.Properties.Resources.resources
+C:\Users\lucas\Documents\Visual Studio 2015\Use a cabeça C#\PlaylistWPF\Santuarivm - Copia\Santuarivm\obj\Debug\Santuarivm.csproj.GenerateResource.Cache

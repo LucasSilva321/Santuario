@@ -1,0 +1,30 @@
+﻿<Window x:Class="Santuarivm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Santuarivm"
+        mc:Ignorable="d"
+        Title="SANTUARIO DE ANIMAIS" Height="500" Width="711" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" Closed="Window_Closed" Closing="Window_Closing"  >
+    <Window.Resources>
+
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+
+        </EventTrigger>
+    </Window.Triggers>
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo/>
+    </Window.TaskbarItemInfo>
+    <Window.Background>
+        <ImageBrush ImageSource="Imagens/telaCadastro2.jpg"/>
+    </Window.Background>
+    <Grid Margin="3,-6,-3,6">
+        <Label x:Name="lblCadastrar" Content="Cadastrar" Margin="0,78,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="82" MouseEnter="lblCadastrar_MouseEnter" MouseLeave="lblCadastrar_MouseLeave" MouseLeftButtonDown="lblCadastrar_MouseLeftButtonDown" Foreground="White"/>
+        <Label x:Name="lblConsulta" Content="Consultar" Margin="0,160,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontSize="50" HorizontalContentAlignment="Center" Height="82" MouseEnter="lblConsulta_MouseEnter" MouseLeave="lblConsulta_MouseLeave" VerticalContentAlignment="Center" MouseLeftButtonDown="lblConsulta_MouseLeftButtonDown" Foreground="White"/>
+        <Label x:Name="lblListas" Content="Listagem" Margin="0,242,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontSize="50" HorizontalContentAlignment="Center" Height="82" VerticalContentAlignment="Center" Foreground="White" MouseEnter="lblListas_MouseEnter" MouseLeave="lblListas_MouseLeave" MouseLeftButtonDown="lblListas_MouseLeftButtonDown"/>
+        <Label x:Name="lblSobre" Content="Sobre" Margin="0,329,0,0" VerticalAlignment="Top" FontFamily="Algerian" FontSize="50" HorizontalContentAlignment="Center" Height="82" VerticalContentAlignment="Center" Foreground="White" MouseEnter="lblSobre_MouseEnter" MouseLeave="lblSobre_MouseLeave" MouseLeftButtonDown="lblSobre_MouseLeftButtonDown"/>
+
+    </Grid>
+</Window>

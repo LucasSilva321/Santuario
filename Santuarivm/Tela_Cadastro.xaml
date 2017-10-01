@@ -1,0 +1,501 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Santuarivm"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" x:Name="window" x:Class="Santuarivm.Tela_Cadastro"
+        mc:Ignorable="d"
+        Title="Cadastro" Height="2087" Width="930" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" Closing="window_Closing">
+    <Window.Resources>
+        <Storyboard x:Key="botoesMamifero">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="dockMamiferos">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.009"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1.014"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dockMamiferos">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-319.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="4.5"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="botoesAve">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="dockAves">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.02"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.025"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dockAves">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-316"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="8"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="botoesReptil">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="dockRepteis">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.002"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1.019"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="dockRepteis">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-322"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="6"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="window">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="939"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Window.Background>
+        <ImageBrush ImageSource="Imagens/telaCadastro.jpg" Opacity="0.5"/>
+    </Window.Background>
+    <Grid>
+        <RadioButton x:Name="rdMamifero" Content="Mamífero" HorizontalAlignment="Left" Margin="125,30,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="11" Checked="rdMamifero_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="3" ScaleX="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="rdReptil" Content="Réptil" HorizontalAlignment="Left" Margin="344,30,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="11" Checked="rdReptil_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="3" ScaleX="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="rdAve" Content="Ave" HorizontalAlignment="Left" Margin="513,30,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="11" Checked="rdAve_Checked" >
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="3" ScaleX="3"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <DockPanel x:Name="dockPanelInfo" HorizontalAlignment="Left" Height="308" LastChildFill="False" Margin="45,70,0,0" VerticalAlignment="Top" Width="714">
+            <GroupBox x:Name="boxInfoGerais" Header="Informações Gerais" Margin="0,0,0,-4" FontSize="28" BorderThickness="0" HorizontalContentAlignment="Stretch" FontWeight="ExtraBold" FontStyle="Italic" Foreground="White" Width="719">
+                <Grid x:Name="gridInfoGerais" Height="268" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="184*"/>
+                        <ColumnDefinition Width="65*"/>
+                        <ColumnDefinition Width="458*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="label_Copy" Content="Nome:" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy3" Content="Data de Nascimento:" HorizontalAlignment="Left" Margin="26,74,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="3"/>
+                    <Label x:Name="label_Copy1" Content="Sexo:" HorizontalAlignment="Left" Margin="26,138,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy2" Content="Venenoso:" HorizontalAlignment="Left" Margin="96,139,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="2"/>
+                    <Label x:Name="label_Copy4" Content="Alimentação:" HorizontalAlignment="Left" Margin="26,204,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtNome" Padding="1" HorizontalAlignment="Left" Height="40" Margin="135,15,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="469" FontSize="28" Foreground="White" SelectionBrush="White" Grid.ColumnSpan="3" BorderBrush="White" BorderThickness="0,0,0,3" PreviewKeyDown="txtNome_PreviewKeyDown" KeyUp="txtNome_KeyUp">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <DatePicker x:Name="dtNascimento" HorizontalAlignment="Left" Margin="161.58,88.5,0,0" VerticalAlignment="Top" Width="124.16" UseLayoutRounding="False" Height="24.44" FontSize="12" RenderTransformOrigin="0.5,0.5" Foreground="Black" Grid.Column="2" IsHitTestVisible="True" IsTodayHighlighted="False">
+                        <DatePicker.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </DatePicker.Background>
+                        <DatePicker.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="2" ScaleX="2"/>
+                                <SkewTransform/>
+                                <RotateTransform/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </DatePicker.RenderTransform>
+                    </DatePicker>
+                    <TextBox x:Name="txtVenenoso" Padding="2" HorizontalAlignment="Left" Height="40" Margin="251,146,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="100" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" Grid.Column="2" BorderBrush="White" BorderThickness="0,0,0,3">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <TextBox x:Name="txtAlimentacao" Padding="2" HorizontalAlignment="Left" Height="40" Margin="45,204,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="266" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" Grid.Column="1" BorderBrush="White" BorderThickness="0,0,0,3" Grid.ColumnSpan="2">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="2,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <ComboBox x:Name="cbSexo" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="39" Margin="111,142,0,0" VerticalAlignment="Top" Width="214" VerticalContentAlignment="Center" Foreground="Black" FontSize="25" SelectedIndex="0">
+                        <ComboBox.OpacityMask>
+                            <SolidColorBrush Color="White" Opacity="0.7"/>
+                        </ComboBox.OpacityMask>
+                        <ComboBox.BorderBrush>
+                            <SolidColorBrush Color="#FFA45252" Opacity="0"/>
+                        </ComboBox.BorderBrush>
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                                <GradientStop Color="#FFF9F0F0" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                        <System:String>Masculino</System:String>
+                        <System:String>Feminino</System:String>
+                        <System:String>Outro</System:String>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockInfoMamifero" HorizontalAlignment="Left" Height="312" LastChildFill="False" Margin="45,378,0,0" VerticalAlignment="Top" Width="714">
+            <GroupBox x:Name="boxInfoMamifero" Header="Caracteristicas de Mamífero" Margin="0,0,0,10" FontSize="30" BorderThickness="0" HorizontalContentAlignment="Stretch" FontWeight="ExtraBold" FontStyle="Italic" Foreground="White" Width="719">
+                <Grid x:Name="gridInfoMamifero">
+                    <Label x:Name="label_Copy5" Content="Marsupial:" HorizontalAlignment="Left" Margin="24,70,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy6" Content="Qtde. de Mamas:" HorizontalAlignment="Left" Margin="24,128,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy7" Content="Pelo:" HorizontalAlignment="Left" Margin="327,70,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy8" Content="Cor de Pele/Pelo:" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:Name="txtMarsupial" Padding="2" HorizontalAlignment="Left" Height="40" Margin="196,74,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="80" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" BorderBrush="White" BorderThickness="0,0,0,3">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <TextBox x:Name="txtPelo" Padding="2" HorizontalAlignment="Left" Height="40" Margin="412,74,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="175" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" BorderBrush="White" BorderThickness="0,0,0,3">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <TextBox x:Name="txtQtdeMamas" Padding="2" HorizontalAlignment="Left" Height="40" Margin="289,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="34" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" BorderBrush="White" BorderThickness="0,0,0,3" HorizontalContentAlignment="Center" >
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <Button x:Name="btnCadastraMamifero" Content="Cadastrar" HorizontalAlignment="Left" Margin="26,189,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnCadastraMamifero_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnVoltar1" Content="Voltar" HorizontalAlignment="Left" Margin="291,189,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnVoltar1_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <ComboBox x:Name="cbCoresPeloPele" HorizontalAlignment="Left" Height="39" Margin="291,16,0,0" VerticalAlignment="Top" Width="296" VerticalContentAlignment="Center" Foreground="Black" FontSize="25" SelectedIndex="0">
+                        <ComboBox.OpacityMask>
+                            <SolidColorBrush Color="White" Opacity="0.7"/>
+                        </ComboBox.OpacityMask>
+                        <ComboBox.BorderBrush>
+                            <SolidColorBrush Color="#FFA45252" Opacity="0"/>
+                        </ComboBox.BorderBrush>
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                                <GradientStop Color="#FFF9F0F0" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockInfoAve" HorizontalAlignment="Left" Height="275" LastChildFill="False" Margin="40,660,0,0" VerticalAlignment="Top" Width="719">
+            <GroupBox x:Name="boxInfoAve" Header="Caracteristicas de Ave" Margin="0,0,0,35" FontSize="30" BorderThickness="0" HorizontalContentAlignment="Stretch" FontWeight="ExtraBold" FontStyle="Italic" Foreground="White" Width="719">
+                <Grid>
+                    <Label x:Name="label_Copy9" Content="Rapina:" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="label_Copy10" Content="Coloração:" HorizontalAlignment="Left" Margin="26,68,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <TextBox x:Name="txtRapina" Padding="2" HorizontalAlignment="Left" Height="40" Margin="168,14,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="206" FontSize="28" Foreground="White" IsReadOnly="True" Focusable="False" BorderBrush="White" BorderThickness="0,0,0,3">
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="#FF2B8E2B" Offset="1"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                    <Button x:Name="btnCadastraAve" Content="Cadastrar" HorizontalAlignment="Left" Margin="29,135,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnCadastraAve_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnVoltar2" Content="Voltar" HorizontalAlignment="Left" Margin="299,135,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnVoltar2_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <ComboBox x:Name="cbColoracaoAve" HorizontalAlignment="Left" Height="39" Margin="198,75,0,0" VerticalAlignment="Top" Width="351" VerticalContentAlignment="Center" Foreground="Black" FontSize="25" SelectedIndex="0">
+                        <ComboBox.OpacityMask>
+                            <SolidColorBrush Color="White" Opacity="0.7"/>
+                        </ComboBox.OpacityMask>
+                        <ComboBox.BorderBrush>
+                            <SolidColorBrush Color="#FFA45252" Opacity="0"/>
+                        </ComboBox.BorderBrush>
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                                <GradientStop Color="#FFF9F0F0" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockInfoReptil" HorizontalAlignment="Left" Height="205" LastChildFill="False" Margin="45,940,0,0" VerticalAlignment="Top" Width="714">
+            <GroupBox x:Name="boxInfoReptil" Header="Caracteristicas de Réptil" FontSize="30" BorderThickness="0" HorizontalContentAlignment="Stretch" FontWeight="ExtraBold" FontStyle="Italic" Foreground="White" Width="719">
+                <Grid>
+                    <Label x:Name="label_Copy11" Content="Pele:" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Button x:Name="btnCadastraReptil" Content="Cadastrar" HorizontalAlignment="Left" Margin="29,76,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnCadastraReptil_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnVoltar3" Content="Voltar" HorizontalAlignment="Left" Margin="299,76,0,0" VerticalAlignment="Top" Width="250" Foreground="White" Click="btnVoltar3_Click">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black" Offset="0"/>
+                                <GradientStop Color="Gray" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <ComboBox x:Name="cbPeleReptil" HorizontalAlignment="Left" Height="39" Margin="112,19,0,0" VerticalAlignment="Top" Width="292" VerticalContentAlignment="Center" Foreground="Black" FontSize="25" SelectedIndex="0" >
+                        <ComboBox.OpacityMask>
+                            <SolidColorBrush Color="White" Opacity="0.7"/>
+                        </ComboBox.OpacityMask>
+                        <ComboBox.BorderBrush>
+                            <SolidColorBrush Color="#FFA45252" Opacity="0"/>
+                        </ComboBox.BorderBrush>
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                                <GradientStop Color="#FFF9F0F0" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                    </ComboBox>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockMamiferos" Height="645" LastChildFill="False" Margin="759,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DockPanel.RenderTransform>
+            <GroupBox x:Name="boxMamiferos" Header="Mamíferos" FontSize="29.8" Foreground="WhiteSmoke" BorderThickness="0" HorizontalContentAlignment="Center" HorizontalAlignment="Right">
+                <Grid x:Name="gridMamiferos">
+                    <Button x:Name="btnCoala" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,0,-2,0" Click="btnCoala_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image" Height="70" Width="135" Source="Imagens/coala.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Coala">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnCanguru" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,75,-2,0" Click="btnCanguru_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image1" Height="70" Width="135" Source="Imagens/canguru.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Canguru Vermelho">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnMorcego" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,150,-2,0" Click="btnMorcego_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image2" Height="70" Width="135" Source="Imagens/morcego.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Morcego Gigante">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnOrnitorrinco" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,225,-2,0" Click="btnOrnitorrinco_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image3" Height="70" Width="135" Source="Imagens/ornintorrinco.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Ornitorrinco">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnDingo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,300,-2,0" Click="btnDingo_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image4" Height="70" Width="135" Source="Imagens/dingo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Dingo">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnTasmania" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,375,-2,0" Click="btnTasmania_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="White" Opacity="0.01"/>
+                        </Button.Background>
+                        <Image x:Name="image5" Height="65" Width="138" Source="Imagens/tasmania.png" RenderTransformOrigin="0.5,0.5" ToolTip="Demônio da Tasmania">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                    <Button x:Name="btnElefante" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,450,-2,0" Click="btnElefante_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image6" Height="70" Width="135" Source="Imagens/elefante.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" ToolTip="Elefante Marinho">
+                            <Image.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Image.RenderTransform>
+                        </Image>
+                    </Button>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockRepteis" HorizontalAlignment="Left" Height="645" LastChildFill="False" Margin="759,1305,0,0" VerticalAlignment="Top" Width="163" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DockPanel.RenderTransform>
+            <GroupBox x:Name="boxRepteis" Header="Répteis" FontSize="29.8" Foreground="WhiteSmoke" BorderThickness="0" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Height="645" VerticalAlignment="Top">
+                <Grid x:Name="gridRepteis">
+                    <Button x:Name="btnTaipan" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,0,-2,0" Click="btnTaipan_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image14" Height="70" Width="135" Source="Imagens/taipan.png" Stretch="Fill" ToolTip="Taipan"/>
+                    </Button>
+                    <Button x:Name="btnCrocodilo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,75,-2,0" Click="btnCrocodilo_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image15" Height="70" Width="135" Source="Imagens/crocodilo.png" Stretch="Fill" ToolTip="Crocodilo de Água Salgada"/>
+                    </Button>
+                    <Button x:Name="btnSapo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,150,-2,0" Click="btnSapo_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image16" Height="60" Width="120" Source="Imagens/sapo (2).png" Stretch="Fill" ToolTip="Sapo"/>
+                    </Button>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <DockPanel x:Name="dockAves" HorizontalAlignment="Left" Height="645" LastChildFill="False" Margin="759,655,0,0" VerticalAlignment="Top" Width="163" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DockPanel.RenderTransform>
+            <GroupBox x:Name="boxAves" Header="Aves" FontSize="29.8" Foreground="WhiteSmoke" BorderThickness="0" HorizontalContentAlignment="Center" HorizontalAlignment="Right" Height="645" VerticalAlignment="Top">
+                <Grid x:Name="gridAves">
+                    <Button x:Name="btnCisne" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,0,-2,0" Click="btnCisne_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image7" Height="70" Width="135" Source="Imagens/cisne.png" Stretch="Fill" ToolTip="Cisne Negro"/>
+                    </Button>
+                    <Button x:Name="btnKiwi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,75,-2,0" Click="btnKiwi_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image8" Height="70" Width="135" Source="Imagens/kiwi2.png" Stretch="Fill" ToolTip="Kiwi"/>
+                    </Button>
+                    <Button x:Name="btnAquila" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="75" Margin="0,150,-2,0" Click="btnAquila_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+                        </Button.Background>
+                        <Image x:Name="image9" Height="70" Width="135" Source="Imagens/aquila.png" Stretch="Fill" ToolTip="Aquila Audax"/>
+                    </Button>
+                </Grid>
+            </GroupBox>
+        </DockPanel>
+        <Button x:Name="btnVoltar0" Content="Voltar" HorizontalAlignment="Left" Margin="708,12,0,0" VerticalAlignment="Top" Width="190" Foreground="White" Height="45" FontSize="30" FontWeight="Bold" FontStyle="Italic" Click="btnVoltar0_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Gray" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
