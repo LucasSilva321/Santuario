@@ -1,0 +1,13 @@
+Coala|Coala1|02/01/2017 00:00:00|Masculino|Cinza
+Canguru Vermelho|Canguru1|24/10/2016 00:00:00|Masculino|Pardo-avermelhada
+Morcego Gigante|Morcego1|13/03/2017 00:00:00|Masculino|Preto
+Ornitorrinco|Ornitorrinco1|21/06/2010 00:00:00|Masculino|Marrom Escuro
+Dingo|Dingo1|20/02/2017 00:00:00|Feminino|Amarelado
+Demônio da Tasmania|Demonio1|03/04/2017 00:00:00|Masculino|Preto
+Elefante Marinho|Elefante1|15/06/2015 00:00:00|Feminino|Amarelo Claro
+Taipan|Taipan1|13/02/2017 00:00:00|Feminino|Fâneros
+Crocodilo|Crocodilo1|26/02/2017 00:00:00|Feminino|Fâneros
+Sapo|Sapo1|20/01/2014 00:00:00|Feminino|Placas_Dérmicas
+Cisne Negro|Cisne1|02/05/2017 00:00:00|Feminino|Policromático_distribuído
+Kiwi|Kiwi1|20/04/2017 00:00:00|Feminino|Monocromático_com_manchas
+Aquila Audax|Aquila1|02/05/2017 00:00:00|Feminino|Monocromático_com_manchas
