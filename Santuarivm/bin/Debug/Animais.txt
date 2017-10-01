@@ -11,3 +11,4 @@ Sapo|Sapo1|20/01/2014 00:00:00|Feminino|Placas_Dérmicas
 Cisne Negro|Cisne1|02/05/2017 00:00:00|Feminino|Policromático_distribuído
 Kiwi|Kiwi1|20/04/2017 00:00:00|Feminino|Monocromático_com_manchas
 Aquila Audax|Aquila1|02/05/2017 00:00:00|Feminino|Monocromático_com_manchas
+Sapo|Teste123|04/09/2017 00:00:00|Masculino|Fâneros
