@@ -16,4 +16,4 @@
           BACKSPACE: Comer
   
 
-<img src="https://github.com/LucasSilva321/Santuario/blob/master/Santuarivm/Imagens/readme.png" />
+<img src="https://github.com/lucasftt/Santuario/blob/master/Santuarivm/Imagens/readme.png" />
